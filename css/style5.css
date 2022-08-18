@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+}
+header{
+    width: 95%;
+    height: 130px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+header div{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+header div b{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: transparent; */
+    background-color: red;
+    color: white;
+    font-size: 45px;
+    
+}
+header div span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:gainsboro;
+    transform: translate(-30px,38px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 95%;
+    height: auto;
+    max-width: 450px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+form h4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+form label{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: 1px solid black;
+    
+    
+    
+}
+form label input{
+    width: 100%;
+    height: auto;
+    border: none;
+   
+   
+}
+
+form label select{
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
+.checbox-label{
+    flex-direction: row !important;
+    /* background-color: red; */
+    border-bottom: none;
+    justify-content: center;
+    
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.info{
+    width:270px;
+    height: 40px;
+    border-radius: 18px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
